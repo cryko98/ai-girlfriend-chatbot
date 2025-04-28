@@ -9,7 +9,7 @@ async function generateReply() {
 
   responseDiv.innerHTML = "Typing... 💬";
 
-  const API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"; 
+  const API_URL = "https://huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"; 
   const API_TOKEN = "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";
 
   const headers = {
